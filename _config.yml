@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: LANDFILL
+subtitle: '当代生活是垃圾'
 description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+keywords: 当代生活,消费主义,工业社会,语言,政治,哲学,科技
+author: Demon
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
