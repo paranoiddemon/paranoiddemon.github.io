@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://paranoiddemon.github.io/blog/2020/06/17/JavaSE02/</loc>
+    
+    <lastmod>2020-06-23T15:56:26.924Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://paranoiddemon.github.io/blog/2020/06/14/JavaSE01/</loc>
+    
+    <lastmod>2020-06-23T15:39:21.550Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://paranoiddemon.github.io/blog/2020/06/21/HexoSync/</loc>
     
     <lastmod>2020-06-22T00:39:47.734Z</lastmod>
@@ -68,27 +82,6 @@
     <loc>https://paranoiddemon.github.io/blog/2020/06/11/hkelection/</loc>
     
     <lastmod>2020-06-21T12:24:25.424Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://paranoiddemon.github.io/blog/2020/06/16/JavaSE02/</loc>
-    
-    <lastmod>2020-06-21T12:24:25.422Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://paranoiddemon.github.io/blog/2020/06/14/JavaSE01/</loc>
-    
-    <lastmod>2020-06-21T12:24:25.422Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://paranoiddemon.github.io/blog/2020/06/17/JavaSE03/</loc>
-    
-    <lastmod>2020-06-18T17:01:27.263Z</lastmod>
     
   </url>
   
