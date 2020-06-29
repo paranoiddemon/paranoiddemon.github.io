@@ -2,65 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://paranoiddemon.github.io/blog/2020/06/25/JavaSE_multithread/</loc>
+    <loc>https://paranoiddemon.github.io/blog/posts/HexoSync.html</loc>
     
-    <lastmod>2020-06-29T04:25:23.955Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://paranoiddemon.github.io/blog/2020/06/14/JavaSE_basic/</loc>
-    
-    <lastmod>2020-06-28T12:56:39.710Z</lastmod>
+    <lastmod>2020-06-29T04:58:05.819Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://paranoiddemon.github.io/blog/2020/06/17/JavaSE_oop/</loc>
+    <loc>https://paranoiddemon.github.io/blog/posts/speedy_revovery.html</loc>
     
-    <lastmod>2020-06-28T12:56:13.395Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://paranoiddemon.github.io/blog/2020/06/21/HexoSync/</loc>
-    
-    <lastmod>2020-06-22T00:39:47.734Z</lastmod>
+    <lastmod>2020-06-29T04:57:48.890Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://paranoiddemon.github.io/blog/2020/06/14/thoughts2020-06/</loc>
+    <loc>https://paranoiddemon.github.io/blog/posts/thoughtsof202006.html</loc>
     
-    <lastmod>2020-06-21T14:40:51.330Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://paranoiddemon.github.io/blog/2020/06/17/PsnConnectGOG/</loc>
-    
-    <lastmod>2020-06-21T13:57:34.156Z</lastmod>
+    <lastmod>2020-06-29T04:57:24.089Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://paranoiddemon.github.io/blog/2020/05/21/WishYouASpeedyRecovery/</loc>
+    <loc>https://paranoiddemon.github.io/blog/posts/thoughtsof202005.html</loc>
     
-    <lastmod>2020-06-21T13:44:02.386Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://paranoiddemon.github.io/blog/2020/05/21/thoughts2020-05/</loc>
-    
-    <lastmod>2020-06-21T13:43:10.198Z</lastmod>
+    <lastmod>2020-06-29T04:57:09.665Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://paranoiddemon.github.io/blog/2020/05/10/political%20philosophy/</loc>
+    <loc>https://paranoiddemon.github.io/blog/posts/Psn_GOG_connect.html</loc>
     
-    <lastmod>2020-06-21T13:42:40.153Z</lastmod>
+    <lastmod>2020-06-29T04:56:41.796Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://paranoiddemon.github.io/blog/posts/political_philosophy.html</loc>
+    
+    <lastmod>2020-06-29T04:56:06.882Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://paranoiddemon.github.io/blog/posts/MySql_select.html</loc>
+    
+    <lastmod>2020-06-29T04:55:35.861Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://paranoiddemon.github.io/blog/posts/Java_OOP.html</loc>
+    
+    <lastmod>2020-06-29T04:55:10.186Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://paranoiddemon.github.io/blog/posts/Java_multithread.html</loc>
+    
+    <lastmod>2020-06-29T04:54:50.986Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://paranoiddemon.github.io/blog/posts/Java_basics.html</loc>
+    
+    <lastmod>2020-06-29T04:54:32.023Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://paranoiddemon.github.io/blog/posts/HomeWasteLand.html</loc>
+    
+    <lastmod>2020-06-29T04:54:16.123Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://paranoiddemon.github.io/blog/posts/HKelection.html</loc>
+    
+    <lastmod>2020-06-29T04:53:52.650Z</lastmod>
     
   </url>
   
@@ -68,27 +89,6 @@
     <loc>https://paranoiddemon.github.io/blog/about/index.html</loc>
     
     <lastmod>2020-06-21T12:24:25.428Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://paranoiddemon.github.io/blog/2020/06/09/mysql-notes/</loc>
-    
-    <lastmod>2020-06-21T12:24:25.426Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://paranoiddemon.github.io/blog/2020/04/20/hometown/</loc>
-    
-    <lastmod>2020-06-21T12:24:25.425Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://paranoiddemon.github.io/blog/2020/06/11/hkelection/</loc>
-    
-    <lastmod>2020-06-21T12:24:25.424Z</lastmod>
     
   </url>
   
