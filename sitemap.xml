@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://paranoiddemon.github.io/blog/posts/java-oop.html</loc>
+    <loc>https://paranoiddemon.github.io/blog/posts/java-collection.html</loc>
     
-    <lastmod>2020-06-30T01:12:02.017Z</lastmod>
+    <lastmod>2020-07-01T16:10:47.560Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://paranoiddemon.github.io/blog/posts/java-io-stream.html</loc>
     
-    <lastmod>2020-06-30T01:11:27.472Z</lastmod>
+    <lastmod>2020-07-01T16:10:34.392Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://paranoiddemon.github.io/blog/posts/java-oop.html</loc>
+    
+    <lastmod>2020-06-30T01:12:02.017Z</lastmod>
     
   </url>
   
@@ -26,13 +33,6 @@
     <loc>https://paranoiddemon.github.io/blog/posts/java-array.html</loc>
     
     <lastmod>2020-06-30T01:11:19.505Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://paranoiddemon.github.io/blog/posts/java-collection.html</loc>
-    
-    <lastmod>2020-06-30T01:11:17.967Z</lastmod>
     
   </url>
   
