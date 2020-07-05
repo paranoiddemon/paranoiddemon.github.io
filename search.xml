@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>如何建立一种深信不疑</title>
+      <link href="/paranoiddemon.github.io/posts/how-to-believe.html"/>
+      <url>/paranoiddemon.github.io/posts/how-to-believe.html</url>
+      
+        <content type="html"><![CDATA[<p>一、<br>Fortran语言之父John Backus 在获得图灵奖的时候讲了这么一段话，描述冯诺依曼瓶颈</p><blockquote><p>Surely there must be a less primitive way of making big changes in the store than by pushing vast numbers of words back and forth through the von Neumann bottleneck. Not only is this tube a literal bottleneck for the data traffic of a problem, but, more importantly, it is an intellectual bottleneck that has kept us tied to word-at-a-time thinking instead of encouraging us to think in terms of the larger conceptual units of the task at hand. Thus programming is basically planning and detailing the enormous traffic of words through the von Neumann bottleneck, and much of that traffic concerns not significant data itself, but where to find it.</p></blockquote><p>“intellectual bottleneck “这个词精确而微妙。genetic bottleneck，intellectual bottleneck，哪个更致命？</p><p>二、</p><p>最近在知乎读到一个问题：<a href="https://www.zhihu.com/question/264893261/answer/286954136" target="_blank" rel="noopener">为什么矩形面积等于长乘宽?</a> 那么多显而易见的问题，并不是那么得显而易见。</p><p>回答里甚至有人说，这是小学生都懂的东西。从某种程度上来说，我们都可以算是他口中的小学生。对于某些问题不应该去深究，这是做正常人的要义。这是我们一直受到的教育，「服从」是我们教育里很糟糕的一点，渗透在社会的每一个角落，讨厌至极。</p><p>三、</p><p>我发现，当进入一种生活模式后，人就会陷入一种时间的惯性，生活坍缩进一个没有维度的空间，很难去怀疑那些如真理的日常的正当性。很多人对生活道路的深信不疑就来自于这样一种未经考量的惯性。</p><p>现在才渐渐意识到用一些时间去审视过去是有帮助的。没有白走的路，也没有不付出代价的选择。至少还不算太晚明白。用行动去实践意义，而不是空想。</p><p>四、</p><p>Why not thinking in terms of the bigger picture?</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 经验 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Thoughts </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Java-IO流</title>
       <link href="/paranoiddemon.github.io/posts/java-io-stream.html"/>
       <url>/paranoiddemon.github.io/posts/java-io-stream.html</url>
