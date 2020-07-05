@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://paranoiddemon.github.io/blog/posts/HexoSync.html</loc>
+    
+    <lastmod>2020-07-05T14:24:08.560Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://paranoiddemon.github.io/blog/posts/java-collection.html</loc>
     
     <lastmod>2020-07-01T16:10:47.560Z</lastmod>
@@ -82,13 +89,6 @@
     <loc>https://paranoiddemon.github.io/blog/posts/java-multithread.html</loc>
     
     <lastmod>2020-06-30T01:07:39.710Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://paranoiddemon.github.io/blog/posts/HexoSync.html</loc>
-    
-    <lastmod>2020-06-29T05:03:24.022Z</lastmod>
     
   </url>
   
