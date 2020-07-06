@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://paranoiddemon.github.io/blog/posts/java-io-stream.html</loc>
+    
+    <lastmod>2020-07-06T00:52:28.778Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://paranoiddemon.github.io/blog/posts/speedy-revovery.html</loc>
+    
+    <lastmod>2020-07-06T00:50:29.085Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://paranoiddemon.github.io/blog/about/index.html</loc>
     
     <lastmod>2020-07-05T16:55:21.124Z</lastmod>
@@ -26,13 +40,6 @@
     <loc>https://paranoiddemon.github.io/blog/posts/java-collection.html</loc>
     
     <lastmod>2020-07-01T16:10:47.560Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://paranoiddemon.github.io/blog/posts/java-io-stream.html</loc>
-    
-    <lastmod>2020-07-01T16:10:34.392Z</lastmod>
     
   </url>
   
@@ -89,13 +96,6 @@
     <loc>https://paranoiddemon.github.io/blog/posts/psn-gog-connection.html</loc>
     
     <lastmod>2020-06-30T01:08:53.585Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://paranoiddemon.github.io/blog/posts/speedy-revovery.html</loc>
-    
-    <lastmod>2020-06-30T01:08:01.317Z</lastmod>
     
   </url>
   
