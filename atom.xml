@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>LANDFILL</title>
   
-  
+  <subtitle>当代生活是垃圾</subtitle>
   <link href="/paranoiddemon.github.io/atom.xml" rel="self"/>
   
   <link href="https://paranoiddemon.github.io/blog/"/>
