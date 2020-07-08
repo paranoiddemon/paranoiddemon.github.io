@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://paranoiddemon.github.io/blog/posts/tomcat-servlet-http-protocol.html</loc>
+    
+    <lastmod>2020-07-08T09:53:37.139Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://paranoiddemon.github.io/blog/about/index.html</loc>
     
     <lastmod>2020-07-06T06:54:09.205Z</lastmod>
