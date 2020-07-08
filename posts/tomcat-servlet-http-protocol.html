@@ -45,7 +45,7 @@
 <meta property="og:image" content="https://i.loli.net/2020/07/07/jNUxvsRF36Z1p8V.png">
 <meta property="og:image" content="https://i.loli.net/2020/07/07/P4LFV2aZ1toGn6f.png">
 <meta property="article:published_time" content="2020-07-07T16:24:46.000Z">
-<meta property="article:modified_time" content="2020-07-08T10:08:26.170Z">
+<meta property="article:modified_time" content="2020-07-08T11:08:09.432Z">
 <meta property="article:author" content="Demon">
 <meta property="article:tag" content="Java">
 <meta property="article:tag" content="Web">
@@ -144,6 +144,7 @@
 <li>Servlet</li>
 <li>HTTP协议</li>
 <li>Request</li>
+<li>Response</li>
 </ol>
 <h2 id="web相关概念"><a href="#web相关概念" class="headerlink" title="web相关概念"></a>web相关概念</h2><ol>
 <li>软件架构<br>C/S 客户端<br>B/S 浏览器</li>
@@ -153,14 +154,13 @@
 <h2 id="web服务器软件"><a href="#web服务器软件" class="headerlink" title="web服务器软件"></a>web服务器软件</h2><p>服务器：安装了服务器软件的计算机<br>服务器软件：接收用户的请求，处理请求，做出响应     如：mysql服务器，web服务器<br>web服务器软件：<br>    可以部署web项目，让用户通过浏览器来访问这些项目<br>    web容器，动态资源需要通过容器来使用</p>
 <p>常用的java相关的web服务器软件<br>    WebLogic oracle公司 大型的JavaEE服务器 支持所有的JavaEE规范  收费<br>    WebSphere：IBM 收费<br>    JBOSS:JBOSS公司 收费<br>    Tomcat：Apache基金组织，中小型的JavaEE服务器，仅支持少量的JavaEE规范servlet/jsp，开源</p>
 <p>注：JavaEE： Java语言在企业级开发中使用的技术规范的总和，一共规定了13项大的规范</p>
-<h2 id="Tomcat"><a href="#Tomcat" class="headerlink" title="Tomcat"></a>Tomcat</h2><pre><code>1. 下载</code></pre><p>​    2. 安装 解压压缩包<br>​        安装的目录不要有中文和空格<br>​    3. 卸载 删除目录就行了<br>​    4. 启动    bin/startup.bat   localhost:8080 一般会把默认端口号改为80 http协议的默认端口号访问不用再输入端口号<br>​    5. 关闭<br>​        强制关闭  关闭窗口<br>​        正常关闭  调用shutdown.bat/ ctrl c 推荐使用<br>​    6. 配置 </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">部署项目的方式：</span><br><span class="line">1. 直接将项目放在webapps目录下 &#96;http:&#x2F;&#x2F;localhost&#x2F;hello&#x2F;hello.html&#96;</span><br><span class="line">&#x2F;hello 项目的访问路径，虚拟目录 一般会将项目打成war包放到webapps目录下，war包会自动解压缩</span><br><span class="line"></span><br><span class="line">2. 在conf&#x2F;server.xml配置</span><br><span class="line">&lt;Context docBase&#x3D;&quot;D:\hello&quot; path&#x3D;&quot;&#x2F;hi&quot;&#x2F;&gt; docBase是资源所在路径，path是访问时的虚拟路径。server.xml是全局配置文件不建议直接配置</span><br><span class="line"></span><br><span class="line">3.conf\Catalina\localhost创建任意名称的xml，xml的文件名称即为虚拟目录</span><br><span class="line">&lt;Context docBase&#x3D;&quot;D:\hello&quot;&#x2F;&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="Tomcat"><a href="#Tomcat" class="headerlink" title="Tomcat"></a>Tomcat</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">1.下载 官方网站</span><br><span class="line">2.安装 解压压缩包 安装的目录不要有中文和空格</span><br><span class="line">3.卸载 删除目录就行了</span><br><span class="line">4.启动	bin&#x2F;startup.bat   localhost:8080 一般会把默认端口号改为80 http协议的默认端口号访问不用再输入端口号</span><br><span class="line">5.关闭 </span><br><span class="line">   强制关闭  关闭窗口</span><br><span class="line">   正常关闭  调用shutdown.bat&#x2F; ctrl c 推荐使用</span><br><span class="line"></span><br><span class="line">6.配置 </span><br><span class="line"></span><br><span class="line">部署项目的方式：</span><br><span class="line">1. 直接将项目放在webapps目录下 &#96;http:&#x2F;&#x2F;localhost&#x2F;hello&#x2F;hello.html&#96;</span><br><span class="line">&#x2F;hello 项目的访问路径，虚拟目录 一般会将项目打成war包放到webapps目录下，war包会自动解压缩</span><br><span class="line"></span><br><span class="line">2. 在conf&#x2F;server.xml配置</span><br><span class="line">&lt;Context docBase&#x3D;&quot;D:\hello&quot; path&#x3D;&quot;&#x2F;hi&quot;&#x2F;&gt; docBase是资源所在路径，path是访问时的虚拟路径。server.xml是全局配置文件不建议直接配置</span><br><span class="line"></span><br><span class="line">3.conf\Catalina\localhost创建任意名称的xml，xml的文件名称即为虚拟目录</span><br><span class="line">&lt;Context docBase&#x3D;&quot;D:\hello&quot;&#x2F;&gt;</span><br></pre></td></tr></table></figure>
 
 
 
 <p>​        </p>
 <p><img src="https://i.loli.net/2020/07/07/jNUxvsRF36Z1p8V.png" alt="Tomcat目录结构"></p>
-<p>静态项目和动态项目<br>    目录结构：<br>        java动态项目的目录的结构：<br>            |–根目录<br>                |–WEB-INFO （有web-info就是动态项目）<br>                    |–web.xml        web项目的核心配置文件<br>                    |–classes目录 放置字节码文件<br>                    |–lib目录         放置依赖的jar包</p>
+<p>静态项目和动态项目<br>    目录结构：<br>        java动态项目的目录的结构：<br>            |–根目录<br>                |–WEB-INFO （动态项目）<br>                    |–web.xml        web项目的核心配置文件<br>                    |–classes目录 放置字节码文件<br>                    |–lib目录         放置依赖的jar包</p>
 <p>将Tomcat集成到IDEA，创建JavaEE项目 run -&gt; edit configuration-&gt;tomcat<br>热部署 update resources</p>
 <h2 id="Servlet"><a href="#Servlet" class="headerlink" title="Servlet"></a>Servlet</h2><h3 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h3><p>概念：server applet  运行在服务器上</p>
 <p>动态资源通过逻辑性的Java代码（java类）来执行，依赖于服务器tomcat执行它<br>需要遵守一定的接口，才能被tomcat所识别</p>
@@ -341,7 +341,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F;解决中文文件名问题：在设置响应头之前设置编码方式</span><br><span class="line">        &#x2F;&#x2F;获取请求头的ua</span><br><span class="line">        String agent &#x3D; request.getHeader(&quot;user-agent&quot;);</span><br><span class="line">        &#x2F;&#x2F;使用工具类方法编码文件名</span><br><span class="line">        filename &#x3D; DownLoadUtils.getFileName(agent, filename);</span><br><span class="line">         response.setHeader(&quot;content-disposition&quot;, &quot;attachment;filename&#x3D;&quot;+filename);</span><br></pre></td></tr></table></figure>
 
 <p>可以实现局域网内文件传输</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1.把需要传输的文件放入img文件夹</span><br><span class="line">2.在download.html 修改filename</span><br><span class="line">3.启动服务器</span><br><span class="line">4.从手机端，或者另一台电脑访问192.168.2.116&#x2F;day15&#x2F;down.html</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1.把需要传输的文件放入img文件夹</span><br><span class="line">2.在download.html 修改filename</span><br><span class="line">3.启动服务器</span><br><span class="line">4.从手机端，或者另一台电脑访问192.168.2.116&#x2F;day15&#x2F;download.html</span><br></pre></td></tr></table></figure>
 
 
 
