@@ -31,6 +31,31 @@
     
     
     <entry>
+      <title>Aria2+Bilibili Evolved批量下载B站视频</title>
+      <link href="/paranoiddemon.github.io/posts/aria2-bilibili.html"/>
+      <url>/paranoiddemon.github.io/posts/aria2-bilibili.html</url>
+      
+        <content type="html"><![CDATA[<p>1、下载文件</p><p><a href="https://github.com/aria2/aria2/releases/tag/release-1.35.0" target="_blank" rel="noopener">aira2 release</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">修改路径 aria2-1.34.0-win-64bit-build1&#96; -&gt; &#96;bin</span><br></pre></td></tr></table></figure><p><a href="https://github.com/ttttmr/aria2-conf" target="_blank" rel="noopener">aira2配置</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git clone https:&#x2F;&#x2F;github.com&#x2F;ttttmr&#x2F;aria2-conf.git</span><br><span class="line"></span><br><span class="line">修改路径aria2-conf-master&#96; -&gt; &#96;conf</span><br></pre></td></tr></table></figure><p>2、配置环境变量</p><p>右键此电脑 -&gt;高级系统设置 -&gt; 环境变量 -&gt;系统变量-&gt;新建Path </p><p>把aria2c.exe所在的bin目录填进去<code>D:\portable_program\aria2\bin</code></p><p>3、配置必要信息 conf/aria2.conf</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">#设置密码</span><br><span class="line">18 rpc-secret &#x3D; xxxxxx</span><br><span class="line">...</span><br><span class="line">89 dir &#x3D; D:\Download</span><br><span class="line">#填默认下载目录</span><br></pre></td></tr></table></figure><p>4、启动</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">如果要自启动 把HideRun.vbs的快捷方式发送到</span><br><span class="line">startup  %APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup</span><br><span class="line"></span><br><span class="line">启动双击 start.bat ，后台运行双击 HideRun.vbs ，关闭双击 stop.bat ，重启双击 restart.bat</span><br></pre></td></tr></table></figure><p>5、配置webui-aria2 </p><p><a href="http://webui-aria2.ghostry.cn" target="_blank" rel="noopener">webui-aria2</a>是aira2的GUI。填入刚才conf设置的秘钥</p><img src="https://i.loli.net/2020/07/08/sOyTv1ZR75MLYif.png" alt="webui-aria2配置" style="zoom:67%;" /><p>6、安装TemperMonkey脚本 BilibiliEvolved</p><p>7、附加功能-&gt;下载视频-&gt;批量导出-&gt;aria2 RPC ，配置同上。开始下载就可以了。</p><p>8、按需要可以配合Chrome插件接管浏览器的下载。</p><p>参考：<a href="https://tmr.js.org/p/1aa3893d/" target="_blank" rel="noopener">aria2 简单使用</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 其他 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Aria2 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>如何确立一种深信不疑</title>
       <link href="/paranoiddemon.github.io/posts/how-to-believe.html"/>
       <url>/paranoiddemon.github.io/posts/how-to-believe.html</url>
