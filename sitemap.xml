@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://paranoiddemon.github.io/blog/about/index.html</loc>
+    
+    <lastmod>2020-07-06T06:54:09.205Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://paranoiddemon.github.io/blog/posts/how-to-believe.html</loc>
     
     <lastmod>2020-07-06T06:19:27.059Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>https://paranoiddemon.github.io/blog/posts/speedy-revovery.html</loc>
     
     <lastmod>2020-07-06T00:50:29.085Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://paranoiddemon.github.io/blog/about/index.html</loc>
-    
-    <lastmod>2020-07-05T16:55:21.124Z</lastmod>
     
   </url>
   
