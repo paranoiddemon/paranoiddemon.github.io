@@ -4,7 +4,7 @@
   
     
     <entry>
-      <title>JavaWeb-Tomcat、Servlet与HTTP协议</title>
+      <title>Tomcat、Servlet与HTTP协议</title>
       <link href="/paranoiddemon.github.io/posts/tomcat-servlet-http-protocol.html"/>
       <url>/paranoiddemon.github.io/posts/tomcat-servlet-http-protocol.html</url>
       
@@ -21,6 +21,8 @@
         <tags>
             
             <tag> Java </tag>
+            
+            <tag> Web </tag>
             
         </tags>
       
