@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://paranoiddemon.github.io/blog/posts/mysql-basic.html</loc>
+    
+    <lastmod>2020-07-15T14:36:55.988Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://paranoiddemon.github.io/blog/posts/speedy-revovery.html</loc>
     
-    <lastmod>2020-07-15T14:13:10.203Z</lastmod>
+    <lastmod>2020-07-15T14:20:48.868Z</lastmod>
     
   </url>
   
@@ -103,13 +110,6 @@
     <loc>https://paranoiddemon.github.io/blog/posts/home-waste-land.html</loc>
     
     <lastmod>2020-06-30T01:09:59.249Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://paranoiddemon.github.io/blog/posts/mysql-select.html</loc>
-    
-    <lastmod>2020-06-30T01:09:41.615Z</lastmod>
     
   </url>
   
