@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://paranoiddemon.github.io/blog/posts/speedy-revovery.html</loc>
+    
+    <lastmod>2020-07-15T14:13:10.203Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://paranoiddemon.github.io/blog/posts/digital-panopticon.html</loc>
     
     <lastmod>2020-07-15T09:44:11.232Z</lastmod>
@@ -54,13 +61,6 @@
     <loc>https://paranoiddemon.github.io/blog/posts/java-io-stream.html</loc>
     
     <lastmod>2020-07-06T00:52:28.778Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://paranoiddemon.github.io/blog/posts/speedy-revovery.html</loc>
-    
-    <lastmod>2020-07-06T00:50:29.085Z</lastmod>
     
   </url>
   
