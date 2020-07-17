@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://paranoiddemon.github.io/blog/posts/thoughtsof202006.html</loc>
+    
+    <lastmod>2020-07-17T15:28:25.226Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://paranoiddemon.github.io/blog/posts/thoughtsof202005.html</loc>
+    
+    <lastmod>2020-07-17T15:28:16.918Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://paranoiddemon.github.io/blog/posts/digital-panopticon.html</loc>
     
     <lastmod>2020-07-17T12:47:22.897Z</lastmod>
@@ -145,20 +159,6 @@
     <loc>https://paranoiddemon.github.io/blog/posts/java-multithread.html</loc>
     
     <lastmod>2020-06-30T01:07:39.710Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://paranoiddemon.github.io/blog/posts/thoughtsof202006.html</loc>
-    
-    <lastmod>2020-06-29T04:57:24.089Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://paranoiddemon.github.io/blog/posts/thoughtsof202005.html</loc>
-    
-    <lastmod>2020-06-29T04:57:09.665Z</lastmod>
     
   </url>
   
