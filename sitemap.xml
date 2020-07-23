@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://paranoiddemon.github.io/blog/about/index.html</loc>
+    
+    <lastmod>2020-07-23T13:19:11.575Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://paranoiddemon.github.io/blog/posts/digital-panopticon.html</loc>
+    
+    <lastmod>2020-07-23T13:02:21.663Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://paranoiddemon.github.io/blog/posts/springmvc-notes.html</loc>
     
     <lastmod>2020-07-21T00:01:25.498Z</lastmod>
@@ -30,13 +44,6 @@
   </url>
   
   <url>
-    <loc>https://paranoiddemon.github.io/blog/posts/digital-panopticon.html</loc>
-    
-    <lastmod>2020-07-18T06:24:28.362Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://paranoiddemon.github.io/blog/posts/thoughtsof202005.html</loc>
     
     <lastmod>2020-07-17T16:41:01.643Z</lastmod>
@@ -61,13 +68,6 @@
     <loc>https://paranoiddemon.github.io/blog/posts/speedy-revovery.html</loc>
     
     <lastmod>2020-07-15T14:20:48.868Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://paranoiddemon.github.io/blog/about/index.html</loc>
-    
-    <lastmod>2020-07-11T01:29:27.757Z</lastmod>
     
   </url>
   
