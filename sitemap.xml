@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://landfill.cc/posts/home-waste-land</loc>
+    
+    <lastmod>2020-07-26T09:33:45.594Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://landfill.cc/posts/hexo-blog-sync</loc>
+    
+    <lastmod>2020-07-26T09:32:39.957Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://landfill.cc/posts/Mudigkeitsgesellschaft</loc>
     
     <lastmod>2020-07-26T05:39:28.111Z</lastmod>
@@ -121,13 +135,6 @@
   </url>
   
   <url>
-    <loc>https://landfill.cc/posts/HexoSync</loc>
-    
-    <lastmod>2020-07-05T14:24:08.560Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://landfill.cc/posts/java-collection</loc>
     
     <lastmod>2020-07-01T16:10:47.560Z</lastmod>
@@ -152,13 +159,6 @@
     <loc>https://landfill.cc/posts/java-array</loc>
     
     <lastmod>2020-06-30T01:11:19.505Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://landfill.cc/posts/home-waste-land</loc>
-    
-    <lastmod>2020-06-30T01:09:59.249Z</lastmod>
     
   </url>
   
