@@ -9,7 +9,7 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "4.2.0"
+    "version": "3.8.0"
   },
   "dependencies": {
     "hexo": "^4.0.0",
@@ -27,7 +27,9 @@
     "hexo-renderer-marked": "^2.0.0",
     "hexo-renderer-pug": "^1.0.0",
     "hexo-renderer-sass": "^0.4.0",
+    "hexo-renderer-scss": "^1.2.0",
     "hexo-renderer-stylus": "^1.1.0",
-    "hexo-server": "^1.0.0"
+    "hexo-server": "^1.0.0",
+    "swig": "^1.4.2"
   }
 }

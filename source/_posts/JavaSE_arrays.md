@@ -1,15 +1,15 @@
 ---
-title: Java学习 02
+title: Java-数组
 date: 2020-06-16 11:24:46
 tags: Java
+urlname: java-array
 category: 笔记
-description:  Java基础
+description:  Java基础:数组
+toc: true
 ---
-## 3. 数组
+# 一、一维数组
 
-### 3.1 一维数组
-
-#### 3.1.1 概念
+## 1.概念
 
 /*
 数组的概念
@@ -44,7 +44,7 @@ description:  Java基础
 
 
 
-#### 3.1.2 一维数组的使用
+## 2.一维数组的使用
 
 1. 一维数组的声明和初始化
 2. 如何调用数组的制定位置的元素
@@ -132,7 +132,7 @@ public class ArrayTest {
 
 注1：[JVM内存模型解析](https://www.youtube.com/watch?v=ZFiYxdWKft8&list=PLTsrYYJ5DyAnRKvHbZ7LslqC_wQ1iOQsF&index=3&t=0s)
 
-#### 练习：学生成绩
+## 练习：学生成绩
 
 ```java
 import java.util.Scanner;
@@ -170,16 +170,16 @@ public class ArrayExer {
 
 
 
-### 3.2 二维数组
+# 二、二维数组
 
-#### 3.2.1 概念
+## 1. 概念
 
 多维数组(以二维为主）
 理解一维数组array1又作为另一一维数组array2的元素而存在。
 其实从数组底层的运行机制来看，没有多维数组。
 array2的堆中存放的是array1的地址  栈> 堆中的地址> 堆中另一个数组
 
-#### 3.2.2 二维数组的使用
+## 2. 二维数组的使用
 
 1. 二维数组的声明和初始化
 2. 如何调用数组的制定位置的元素
@@ -316,7 +316,7 @@ public class ArrayTest2 {
 1. 排序算法
 2. 搜索算法
 
-#### 练习：打印杨辉三角
+## 练习：打印杨辉三角
 
 ```java
 //使用二维数组打印一个10行的杨辉三角
@@ -343,7 +343,7 @@ class YangHuiTriangle {
 
 ```
 
-### 3.3 数组涉及常见算法
+# 三、数组涉及常见算法
 
 /*
 数组涉及的常见算法：
@@ -353,7 +353,7 @@ class YangHuiTriangle {
 4.数组元素的**排序算法**（冒泡算法）
  */
 
-#### 3.3.1 数组元素赋值
+## 1. 数组元素赋值
 
 杨辉三角/回形树
 
@@ -380,7 +380,7 @@ public static void main(String[] args) {
 		}	
 	}
 ```
-#### 3.3.2 最大、最小，和、平均
+## 2. 最大、最小，和、平均
 ```java
 class AlgorithmStatistic {
 	public static void main(String[] args) {
@@ -418,7 +418,7 @@ class AlgorithmStatistic {
 
 
 
-#### 3.3.3 赋值、翻转、查找
+## 3. 赋值、翻转、查找
 
 ```java
 class AlgorithmAssignment {
@@ -577,7 +577,7 @@ public static void main(String[] args) {
 //差值法 哈希算法
 ```
 
-#### 3.3.4 排序
+## 4. 排序
 
 ```java
 package com.atguigu.java;
@@ -641,7 +641,7 @@ public class AlgorithmSort {
 //排序算法的横向对比
 ```
 
-### 3.4 Arrays 工具类的使用
+# 四、Arrays 工具类的使用
 
 ```java
 package com.atguigu.java;
@@ -680,7 +680,7 @@ public class ArraysTest {
 }
 ```
 
-### 3.5 数组中的常见异常
+# 五、数组中的常见异常
 
 ```java
 package com.atguigu.java;

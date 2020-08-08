@@ -4,22 +4,22 @@
 
 # Site
 title: LANDFILL
-subtitle: '当代生活是垃圾'
-description: ''
-keywords: 当代生活,消费主义,工业社会,语言,政治,哲学,科技
+#subtitle: 
+description: '当代生活是垃圾'
+keywords: 当代生活,消费主义,工业社会,语言,政治,哲学,科技,Java
 author: Demon
-language: zh-CN
+language: en
 timezone: 'Asia/Shanghai'
 
 # URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://paranoiddemon.github.io/blog
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/' 网址和在博客文件夹的根目录
+url: https://landfill.cc
 root: /paranoiddemon.github.io/
-permalink: :year/:month/:day/:title/
+permalink: posts/:urlname.html
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks 去除html的后缀
+  trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: maupassant
+theme: polarbear
 #RSS订阅
 plugin:
 - hexo-generator-feed

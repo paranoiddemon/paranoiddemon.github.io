@@ -1,9 +1,11 @@
 ---
-title: Java学习 01
+title: Java-基本语法
 date: 2020-06-14 00:24:46
 tags: Java
+urlname: java-basics
 category: 笔记
-description:  Java基础
+description:  Java基础：基本语法
+toc: true
 ---
 
 # 1. Java语言
@@ -1620,8 +1622,6 @@ class BreakContinueTest1 {
 2. 可读性
 3. 健壮性
 4. 高效率与低存储：**时间复杂度**、空间复杂度（衡量算法的好坏）
-
-
 
 
 

@@ -1,7 +1,6 @@
 disqus: ## Your disqus_shortname, e.g. username
 uyan: ## Your uyan_id. e.g. 1234567
 livere: ## Your livere data-uid, e.g. MTAyMC8zMDAxOC78NTgz
-favicon: favicon.ico
 changyan: ## Your changyan appid, e.g. cyrALsXc8
 changyan_conf: ## Your changyan conf, e.g. prod_d8a508c2825ab57eeb43e7c69bba0e8b
 gitalk:
@@ -12,15 +11,15 @@ gitalk:
   client_secret: ## GitHub client secret, e.g. ec2fb9054972c891289640354993b662f4cccc50
   admin: ## Github repo owner and collaborators, only these guys can initialize github issues.
 valine: ## https://valine.js.org
-  enable: true ## If you want to use Valine comment system, please set the value to true.
-  appid: F4fuINw4fDM77aFwYEmAzsW3-gzGzoHsz ## Your LeanCloud application App ID, e.g. pRBBL2JR4N7kLEGojrF0MsSs-gzGzoHsz
-  appkey: mMUlvMhTRvKI3Akc8WuVc2EU ## Your LeanCloud application App Key, e.g. tjczHpDfhjYDSYddzymYK1JJ
+  enable: false ## If you want to use Valine comment system, please set the value to true.
+  appid: ## Your LeanCloud application App ID, e.g. pRBBL2JR4N7kLEGojrF0MsSs-gzGzoHsz
+  appkey: ## Your LeanCloud application App Key, e.g. tjczHpDfhjYDSYddzymYK1JJ
   notify: false ## Mail notifier, see https://github.com/xCss/Valine/wiki/Valine-评论系统中的邮件提醒设置
   verify: false ## Validation code.
-  placeholder: 你来讲两句 ## Comment box placeholders.
-  avatar: "mp" ## Gravatar type, see https://github.com/xCss/Valine/wiki/avatar-setting-for-valine
+  placeholder: Just so so ## Comment box placeholders.
+  avatar: "mm" ## Gravatar type, see https://github.com/xCss/Valine/wiki/avatar-setting-for-valine
   pageSize: 10 ## Number of comments per page.
-  guest_info: nick,mail ## Attributes of reviewers.
+  guest_info: nick,mail,link ## Attributes of reviewers.
 # MiniValine
 # See: https://github.com/MiniValine/MiniValine
 minivaline:
@@ -40,16 +39,15 @@ minivaline:
 google_search: false ## Use Google search, true/false.
 baidu_search: false ## Use Baidu search, true/false.
 swiftype: ## Your swiftype_key, e.g. m7b11ZrsT8Me7gzApciT
-tinysou: ## Your tinysou_key, e.g. 4ac092ad8d749fdc6293
-self_search: true ## Use a jQuery-based local search engine, true/false.
+self_search: false ## Use a jQuery-based local search engine, true/false.
 google_analytics: ## Your Google Analytics tracking id, e.g. UA-42425684-2
 baidu_analytics: ## Your Baidu Analytics tracking id, e.g. 8006843039519956000
 fancybox: true ## If you want to use fancybox please set the value to true.
-show_category_count: false ## If you want to show the count of categories in the sidebar widget please set the value to true.
-toc_number: true ## If you want to add list number to toc please set the value to true.
-shareto: true ## If you want to use the share button please set the value to true, and you must have hexo-helper-qrcode installed.
+show_category_count: true ## If you want to show the count of categories in the sidebar widget please set the value to true.
+toc_number: false ## If you want to add list number to toc please set the value to true.
+shareto: false ## If you want to use the share button please set the value to true, and you must have hexo-helper-qrcode installed.
 busuanzi: false ## If you want to use Busuanzi page views please set the value to true.
-wordcount: false ## If you want to display the word counter and the reading time expected to spend of each post please set the value to true, and you must have hexo-wordcount installed.
+wordcount: true ## If you want to display the word counter and the reading time expected to spend of each post please set the value to true, and you must have hexo-wordcount installed.
 widgets_on_small_screens: false ## Set to true to enable widgets on small screens.
 canvas_nest:
   enable: false ## If you want to use dynamic background please set the value to true, you can also fill the following parameters to customize the dynamic effect, or just leave them blank to keep the default effect.
@@ -77,37 +75,34 @@ copycode: true ## If you want to enable one-click copy of the code blocks, set t
 dark: false ## If you want to use the dark mode theme, set the value to true. Note: This feature is not complete, please open an issue if you have any problem.
 
 menu:
-  - page: 首页
+  - page: home
     directory: .
     icon: fa-home
-  - page: 关于
-    directory: about/
-    icon: fa-user
-  - page: 归档
+  - page: archive
     directory: archives/
     icon: fa-archive
-  - page: 订阅
+  - page: about
+    directory: about/
+    icon: fa-user
+  - page: rss
     directory: atom.xml
     icon: fa-rss
-##- page: 其他
-##  directory: others/
-##  icon: fa-rss 
 
 widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
   - search
   - category
   - tag
   - recent_posts
-  - recent_comments
-#  - links
+ # - recent_comments
+ # - links
 
 #links:
- # - title: site-name1
- #   url: http://www.example1.com/
- # - title: site-name2
- #   url: http://www.example2.com/
- # - title: site-name3
- #   url: http://www.example3.com/
+  - title: site-name1
+    url: http://www.example1.com/
+  - title: site-name2
+    url: http://www.example2.com/
+  - title: site-name3
+    url: http://www.example3.com/
 
 timeline:
   - num: 1

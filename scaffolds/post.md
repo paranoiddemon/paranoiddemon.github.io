@@ -1,5 +1,10 @@
 ---
 title: {{ title }}
 date: {{ date }}
-tags:
+tags: 
+urlname: 
+category: 
+description:  
+toc: false
 ---
+

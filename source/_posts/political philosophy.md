@@ -1,8 +1,9 @@
 ---
 title: 政治哲学/Jonathan Wolff
-date: 2020/5/10
+date: 2020/5/10 00:22:46
 categories: 笔记
 tags:
+urlname: political-philosophy
 toc: true
 description: 《政治哲学》乔纳森·沃尔夫 阅读笔记
 ---
