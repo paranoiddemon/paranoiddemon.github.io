@@ -5,9 +5,9 @@
   
   <link href="/paranoiddemon.github.io/atom.xml" rel="self"/>
   
-  <link href="https://landfill.cc/"/>
+  <link href="http://landfill.cc/"/>
   <updated>2020-07-26T05:39:28.111Z</updated>
-  <id>https://landfill.cc/</id>
+  <id>http://landfill.cc/</id>
   
   <author>
     <name>Demon</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>超越规训社会/韩炳哲</title>
-    <link href="https://landfill.cc/posts/Mudigkeitsgesellschaft"/>
-    <id>https://landfill.cc/posts/Mudigkeitsgesellschaft</id>
+    <link href="http://landfill.cc/posts/Mudigkeitsgesellschaft"/>
+    <id>http://landfill.cc/posts/Mudigkeitsgesellschaft</id>
     <published>2020-07-25T16:24:46.000Z</published>
     <updated>2020-07-26T05:39:28.111Z</updated>
     
@@ -32,17 +32,17 @@
     </summary>
     
     
-      <category term="摘录" scheme="https://landfill.cc/categories/%E6%91%98%E5%BD%95/"/>
+      <category term="摘录" scheme="http://landfill.cc/categories/%E6%91%98%E5%BD%95/"/>
     
     
-      <category term="Excerpt" scheme="https://landfill.cc/tags/Excerpt/"/>
+      <category term="Excerpt" scheme="http://landfill.cc/tags/Excerpt/"/>
     
   </entry>
   
   <entry>
     <title>SpringMVC框架初步与SSM整合</title>
-    <link href="https://landfill.cc/posts/springmvc-notes"/>
-    <id>https://landfill.cc/posts/springmvc-notes</id>
+    <link href="http://landfill.cc/posts/springmvc-notes"/>
+    <id>http://landfill.cc/posts/springmvc-notes</id>
     <published>2020-07-20T16:30:46.000Z</published>
     <updated>2020-07-21T00:01:25.498Z</updated>
     
@@ -55,19 +55,19 @@
     </summary>
     
     
-      <category term="笔记" scheme="https://landfill.cc/categories/%E7%AC%94%E8%AE%B0/"/>
+      <category term="笔记" scheme="http://landfill.cc/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="Java" scheme="https://landfill.cc/tags/Java/"/>
+      <category term="Java" scheme="http://landfill.cc/tags/Java/"/>
     
-      <category term="SpringMVC" scheme="https://landfill.cc/tags/SpringMVC/"/>
+      <category term="SpringMVC" scheme="http://landfill.cc/tags/SpringMVC/"/>
     
   </entry>
   
   <entry>
     <title>DIGITAL GRAVEYARD</title>
-    <link href="https://landfill.cc/posts/gravestone"/>
-    <id>https://landfill.cc/posts/gravestone</id>
+    <link href="http://landfill.cc/posts/gravestone"/>
+    <id>http://landfill.cc/posts/gravestone</id>
     <published>2020-07-19T16:30:46.000Z</published>
     <updated>2020-07-19T05:50:15.903Z</updated>
     
@@ -80,15 +80,15 @@
     </summary>
     
     
-      <category term="经验" scheme="https://landfill.cc/categories/%E7%BB%8F%E9%AA%8C/"/>
+      <category term="经验" scheme="http://landfill.cc/categories/%E7%BB%8F%E9%AA%8C/"/>
     
     
   </entry>
   
   <entry>
     <title>Spring 框架初步</title>
-    <link href="https://landfill.cc/posts/springframework-notes"/>
-    <id>https://landfill.cc/posts/springframework-notes</id>
+    <link href="http://landfill.cc/posts/springframework-notes"/>
+    <id>http://landfill.cc/posts/springframework-notes</id>
     <published>2020-07-18T16:30:46.000Z</published>
     <updated>2020-07-19T02:35:24.187Z</updated>
     
@@ -101,19 +101,19 @@
     </summary>
     
     
-      <category term="笔记" scheme="https://landfill.cc/categories/%E7%AC%94%E8%AE%B0/"/>
+      <category term="笔记" scheme="http://landfill.cc/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="Java" scheme="https://landfill.cc/tags/Java/"/>
+      <category term="Java" scheme="http://landfill.cc/tags/Java/"/>
     
-      <category term="Spring" scheme="https://landfill.cc/tags/Spring/"/>
+      <category term="Spring" scheme="http://landfill.cc/tags/Spring/"/>
     
   </entry>
   
   <entry>
     <title>Mybatis 框架初步</title>
-    <link href="https://landfill.cc/posts/mybatis-notes"/>
-    <id>https://landfill.cc/posts/mybatis-notes</id>
+    <link href="http://landfill.cc/posts/mybatis-notes"/>
+    <id>http://landfill.cc/posts/mybatis-notes</id>
     <published>2020-07-15T16:30:46.000Z</published>
     <updated>2020-07-17T01:31:55.395Z</updated>
     
@@ -126,19 +126,19 @@
     </summary>
     
     
-      <category term="笔记" scheme="https://landfill.cc/categories/%E7%AC%94%E8%AE%B0/"/>
+      <category term="笔记" scheme="http://landfill.cc/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="Java" scheme="https://landfill.cc/tags/Java/"/>
+      <category term="Java" scheme="http://landfill.cc/tags/Java/"/>
     
-      <category term="Mybatis" scheme="https://landfill.cc/tags/Mybatis/"/>
+      <category term="Mybatis" scheme="http://landfill.cc/tags/Mybatis/"/>
     
   </entry>
   
   <entry>
     <title>去往远方的猪圈</title>
-    <link href="https://landfill.cc/posts/digital-panopticon"/>
-    <id>https://landfill.cc/posts/digital-panopticon</id>
+    <link href="http://landfill.cc/posts/digital-panopticon"/>
+    <id>http://landfill.cc/posts/digital-panopticon</id>
     <published>2020-07-14T16:30:46.000Z</published>
     <updated>2020-07-23T13:02:21.663Z</updated>
     
@@ -151,17 +151,17 @@
     </summary>
     
     
-      <category term="经验" scheme="https://landfill.cc/categories/%E7%BB%8F%E9%AA%8C/"/>
+      <category term="经验" scheme="http://landfill.cc/categories/%E7%BB%8F%E9%AA%8C/"/>
     
     
-      <category term="Thoughts" scheme="https://landfill.cc/tags/Thoughts/"/>
+      <category term="Thoughts" scheme="http://landfill.cc/tags/Thoughts/"/>
     
   </entry>
   
   <entry>
     <title>Google Keep 闯作收录</title>
-    <link href="https://landfill.cc/posts/keep-notes"/>
-    <id>https://landfill.cc/posts/keep-notes</id>
+    <link href="http://landfill.cc/posts/keep-notes"/>
+    <id>http://landfill.cc/posts/keep-notes</id>
     <published>2020-07-08T16:30:46.000Z</published>
     <updated>2020-07-26T09:58:29.226Z</updated>
     
@@ -174,17 +174,17 @@
     </summary>
     
     
-      <category term="经验" scheme="https://landfill.cc/categories/%E7%BB%8F%E9%AA%8C/"/>
+      <category term="经验" scheme="http://landfill.cc/categories/%E7%BB%8F%E9%AA%8C/"/>
     
     
-      <category term="Thoughts" scheme="https://landfill.cc/tags/Thoughts/"/>
+      <category term="Thoughts" scheme="http://landfill.cc/tags/Thoughts/"/>
     
   </entry>
   
   <entry>
     <title>Breaking Out of the Prisoner&#39;s Dilemma</title>
-    <link href="https://landfill.cc/posts/how-to-break-prison"/>
-    <id>https://landfill.cc/posts/how-to-break-prison</id>
+    <link href="http://landfill.cc/posts/how-to-break-prison"/>
+    <id>http://landfill.cc/posts/how-to-break-prison</id>
     <published>2020-07-08T16:24:46.000Z</published>
     <updated>2020-07-10T13:46:05.626Z</updated>
     
@@ -197,17 +197,17 @@
     </summary>
     
     
-      <category term="经验" scheme="https://landfill.cc/categories/%E7%BB%8F%E9%AA%8C/"/>
+      <category term="经验" scheme="http://landfill.cc/categories/%E7%BB%8F%E9%AA%8C/"/>
     
     
-      <category term="Thoughts" scheme="https://landfill.cc/tags/Thoughts/"/>
+      <category term="Thoughts" scheme="http://landfill.cc/tags/Thoughts/"/>
     
   </entry>
   
   <entry>
     <title>Tomcat、Servlet与HTTP协议</title>
-    <link href="https://landfill.cc/posts/tomcat-servlet-http-protocol"/>
-    <id>https://landfill.cc/posts/tomcat-servlet-http-protocol</id>
+    <link href="http://landfill.cc/posts/tomcat-servlet-http-protocol"/>
+    <id>http://landfill.cc/posts/tomcat-servlet-http-protocol</id>
     <published>2020-07-07T16:24:46.000Z</published>
     <updated>2020-07-09T16:26:37.015Z</updated>
     
@@ -220,19 +220,19 @@
     </summary>
     
     
-      <category term="笔记" scheme="https://landfill.cc/categories/%E7%AC%94%E8%AE%B0/"/>
+      <category term="笔记" scheme="http://landfill.cc/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="Java" scheme="https://landfill.cc/tags/Java/"/>
+      <category term="Java" scheme="http://landfill.cc/tags/Java/"/>
     
-      <category term="Web" scheme="https://landfill.cc/tags/Web/"/>
+      <category term="Web" scheme="http://landfill.cc/tags/Web/"/>
     
   </entry>
   
   <entry>
     <title>Aria2+Bilibili Evolved批量下载B站视频</title>
-    <link href="https://landfill.cc/posts/aria2-bilibili"/>
-    <id>https://landfill.cc/posts/aria2-bilibili</id>
+    <link href="http://landfill.cc/posts/aria2-bilibili"/>
+    <id>http://landfill.cc/posts/aria2-bilibili</id>
     <published>2020-07-06T16:24:46.000Z</published>
     <updated>2020-07-08T12:45:08.416Z</updated>
     
@@ -245,17 +245,17 @@
     </summary>
     
     
-      <category term="其他" scheme="https://landfill.cc/categories/%E5%85%B6%E4%BB%96/"/>
+      <category term="其他" scheme="http://landfill.cc/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-      <category term="Aria2" scheme="https://landfill.cc/tags/Aria2/"/>
+      <category term="Aria2" scheme="http://landfill.cc/tags/Aria2/"/>
     
   </entry>
   
   <entry>
     <title>如何确立一种深信不疑</title>
-    <link href="https://landfill.cc/posts/how-to-believe"/>
-    <id>https://landfill.cc/posts/how-to-believe</id>
+    <link href="http://landfill.cc/posts/how-to-believe"/>
+    <id>http://landfill.cc/posts/how-to-believe</id>
     <published>2020-06-30T16:24:46.000Z</published>
     <updated>2020-07-10T00:06:22.276Z</updated>
     
@@ -268,17 +268,17 @@
     </summary>
     
     
-      <category term="经验" scheme="https://landfill.cc/categories/%E7%BB%8F%E9%AA%8C/"/>
+      <category term="经验" scheme="http://landfill.cc/categories/%E7%BB%8F%E9%AA%8C/"/>
     
     
-      <category term="Thoughts" scheme="https://landfill.cc/tags/Thoughts/"/>
+      <category term="Thoughts" scheme="http://landfill.cc/tags/Thoughts/"/>
     
   </entry>
   
   <entry>
     <title>Java-IO流</title>
-    <link href="https://landfill.cc/posts/java-io-stream"/>
-    <id>https://landfill.cc/posts/java-io-stream</id>
+    <link href="http://landfill.cc/posts/java-io-stream"/>
+    <id>http://landfill.cc/posts/java-io-stream</id>
     <published>2020-06-29T12:24:46.000Z</published>
     <updated>2020-07-06T00:52:28.778Z</updated>
     
@@ -291,17 +291,17 @@
     </summary>
     
     
-      <category term="笔记" scheme="https://landfill.cc/categories/%E7%AC%94%E8%AE%B0/"/>
+      <category term="笔记" scheme="http://landfill.cc/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="Java" scheme="https://landfill.cc/tags/Java/"/>
+      <category term="Java" scheme="http://landfill.cc/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>Java-集合</title>
-    <link href="https://landfill.cc/posts/java-collection"/>
-    <id>https://landfill.cc/posts/java-collection</id>
+    <link href="http://landfill.cc/posts/java-collection"/>
+    <id>http://landfill.cc/posts/java-collection</id>
     <published>2020-06-27T16:24:46.000Z</published>
     <updated>2020-07-01T16:10:47.560Z</updated>
     
@@ -314,17 +314,17 @@
     </summary>
     
     
-      <category term="笔记" scheme="https://landfill.cc/categories/%E7%AC%94%E8%AE%B0/"/>
+      <category term="笔记" scheme="http://landfill.cc/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="Java" scheme="https://landfill.cc/tags/Java/"/>
+      <category term="Java" scheme="http://landfill.cc/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>Java-多线程</title>
-    <link href="https://landfill.cc/posts/java-multithread"/>
-    <id>https://landfill.cc/posts/java-multithread</id>
+    <link href="http://landfill.cc/posts/java-multithread"/>
+    <id>http://landfill.cc/posts/java-multithread</id>
     <published>2020-06-25T12:24:46.000Z</published>
     <updated>2020-06-30T01:07:39.710Z</updated>
     
@@ -337,17 +337,17 @@
     </summary>
     
     
-      <category term="笔记" scheme="https://landfill.cc/categories/%E7%AC%94%E8%AE%B0/"/>
+      <category term="笔记" scheme="http://landfill.cc/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="Java" scheme="https://landfill.cc/tags/Java/"/>
+      <category term="Java" scheme="http://landfill.cc/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>更换电脑Hexo博客迁移</title>
-    <link href="https://landfill.cc/posts/hexo-blog-sync"/>
-    <id>https://landfill.cc/posts/hexo-blog-sync</id>
+    <link href="http://landfill.cc/posts/hexo-blog-sync"/>
+    <id>http://landfill.cc/posts/hexo-blog-sync</id>
     <published>2020-06-20T16:22:46.000Z</published>
     <updated>2020-08-08T10:18:44.936Z</updated>
     
@@ -360,17 +360,17 @@
     </summary>
     
     
-      <category term="其他" scheme="https://landfill.cc/categories/%E5%85%B6%E4%BB%96/"/>
+      <category term="其他" scheme="http://landfill.cc/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-      <category term="Blog" scheme="https://landfill.cc/tags/Blog/"/>
+      <category term="Blog" scheme="http://landfill.cc/tags/Blog/"/>
     
   </entry>
   
   <entry>
     <title>GOG连接PSN超时解决方法</title>
-    <link href="https://landfill.cc/posts/psn-gog-connection"/>
-    <id>https://landfill.cc/posts/psn-gog-connection</id>
+    <link href="http://landfill.cc/posts/psn-gog-connection"/>
+    <id>http://landfill.cc/posts/psn-gog-connection</id>
     <published>2020-06-17T09:24:46.000Z</published>
     <updated>2020-06-30T01:08:53.585Z</updated>
     
@@ -383,15 +383,15 @@
     </summary>
     
     
-      <category term="其他" scheme="https://landfill.cc/categories/%E5%85%B6%E4%BB%96/"/>
+      <category term="其他" scheme="http://landfill.cc/categories/%E5%85%B6%E4%BB%96/"/>
     
     
   </entry>
   
   <entry>
     <title>Java-面向对象</title>
-    <link href="https://landfill.cc/posts/java-oop"/>
-    <id>https://landfill.cc/posts/java-oop</id>
+    <link href="http://landfill.cc/posts/java-oop"/>
+    <id>http://landfill.cc/posts/java-oop</id>
     <published>2020-06-16T16:24:46.000Z</published>
     <updated>2020-06-30T01:12:02.017Z</updated>
     
@@ -404,17 +404,17 @@
     </summary>
     
     
-      <category term="笔记" scheme="https://landfill.cc/categories/%E7%AC%94%E8%AE%B0/"/>
+      <category term="笔记" scheme="http://landfill.cc/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="Java" scheme="https://landfill.cc/tags/Java/"/>
+      <category term="Java" scheme="http://landfill.cc/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>Java-数组</title>
-    <link href="https://landfill.cc/posts/java-array"/>
-    <id>https://landfill.cc/posts/java-array</id>
+    <link href="http://landfill.cc/posts/java-array"/>
+    <id>http://landfill.cc/posts/java-array</id>
     <published>2020-06-16T03:24:46.000Z</published>
     <updated>2020-06-30T01:11:19.505Z</updated>
     
@@ -427,17 +427,17 @@
     </summary>
     
     
-      <category term="笔记" scheme="https://landfill.cc/categories/%E7%AC%94%E8%AE%B0/"/>
+      <category term="笔记" scheme="http://landfill.cc/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="Java" scheme="https://landfill.cc/tags/Java/"/>
+      <category term="Java" scheme="http://landfill.cc/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>语言碎片 2020/06</title>
-    <link href="https://landfill.cc/posts/thoughtsof202006"/>
-    <id>https://landfill.cc/posts/thoughtsof202006</id>
+    <link href="http://landfill.cc/posts/thoughtsof202006"/>
+    <id>http://landfill.cc/posts/thoughtsof202006</id>
     <published>2020-06-14T14:22:46.000Z</published>
     <updated>2020-07-19T15:13:17.835Z</updated>
     
@@ -450,17 +450,17 @@
     </summary>
     
     
-      <category term="经验" scheme="https://landfill.cc/categories/%E7%BB%8F%E9%AA%8C/"/>
+      <category term="经验" scheme="http://landfill.cc/categories/%E7%BB%8F%E9%AA%8C/"/>
     
     
-      <category term="Thoughts" scheme="https://landfill.cc/tags/Thoughts/"/>
+      <category term="Thoughts" scheme="http://landfill.cc/tags/Thoughts/"/>
     
   </entry>
   
   <entry>
     <title>Java-基本语法</title>
-    <link href="https://landfill.cc/posts/java-basics"/>
-    <id>https://landfill.cc/posts/java-basics</id>
+    <link href="http://landfill.cc/posts/java-basics"/>
+    <id>http://landfill.cc/posts/java-basics</id>
     <published>2020-06-13T16:24:46.000Z</published>
     <updated>2020-06-30T01:11:20.714Z</updated>
     
@@ -473,10 +473,10 @@
     </summary>
     
     
-      <category term="笔记" scheme="https://landfill.cc/categories/%E7%AC%94%E8%AE%B0/"/>
+      <category term="笔记" scheme="http://landfill.cc/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="Java" scheme="https://landfill.cc/tags/Java/"/>
+      <category term="Java" scheme="http://landfill.cc/tags/Java/"/>
     
   </entry>
   
