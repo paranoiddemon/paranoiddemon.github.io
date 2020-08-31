@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://landfill.cc/posts/thoughtsof202005</loc>
+    
+    <lastmod>2020-08-31T13:46:15.252Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://landfill.cc/posts/digital-panopticon</loc>
+    
+    <lastmod>2020-08-31T13:45:18.890Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://landfill.cc/posts/hexo-blog-sync</loc>
     
     <lastmod>2020-08-08T10:18:44.936Z</lastmod>
@@ -37,13 +51,6 @@
   </url>
   
   <url>
-    <loc>http://landfill.cc/posts/digital-panopticon</loc>
-    
-    <lastmod>2020-07-23T13:02:21.663Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://landfill.cc/posts/springmvc-notes</loc>
     
     <lastmod>2020-07-21T00:01:25.498Z</lastmod>
@@ -68,13 +75,6 @@
     <loc>http://landfill.cc/posts/springframework-notes</loc>
     
     <lastmod>2020-07-19T02:35:24.187Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://landfill.cc/posts/thoughtsof202005</loc>
-    
-    <lastmod>2020-07-17T16:41:01.643Z</lastmod>
     
   </url>
   
