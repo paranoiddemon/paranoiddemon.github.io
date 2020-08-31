@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://landfill.cc/posts/thoughtsof202006</loc>
+    
+    <lastmod>2020-08-31T13:48:41.745Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://landfill.cc/posts/thoughtsof202005</loc>
     
     <lastmod>2020-08-31T13:46:15.252Z</lastmod>
@@ -54,13 +61,6 @@
     <loc>http://landfill.cc/posts/springmvc-notes</loc>
     
     <lastmod>2020-07-21T00:01:25.498Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://landfill.cc/posts/thoughtsof202006</loc>
-    
-    <lastmod>2020-07-19T15:13:17.835Z</lastmod>
     
   </url>
   
