@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://landfill.cc/posts/nausea</loc>
+    
+    <lastmod>2021-03-24T16:49:02.440Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://landfill.cc/about/</loc>
+    
+    <lastmod>2021-03-20T18:25:33.312Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://landfill.cc/posts/thoughtsof202009</loc>
     
     <lastmod>2020-09-27T15:15:16.811Z</lastmod>
@@ -54,13 +68,6 @@
     <loc>http://landfill.cc/posts/Mudigkeitsgesellschaft</loc>
     
     <lastmod>2020-07-26T05:39:28.111Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://landfill.cc/about/</loc>
-    
-    <lastmod>2020-07-23T13:19:11.575Z</lastmod>
     
   </url>
   
