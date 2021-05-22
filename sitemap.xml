@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://landfill.cc/about/</loc>
+    
+    <lastmod>2021-05-16T15:17:03.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://landfill.cc/</loc>
+    
+    <lastmod>2021-05-16T15:17:03.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://landfill.cc/posts/political-philosophy</loc>
     
     <lastmod>2021-04-23T13:01:51.000Z</lastmod>
@@ -19,13 +33,6 @@
     <loc>http://landfill.cc/posts/randomness</loc>
     
     <lastmod>2021-04-23T12:59:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://landfill.cc/about/</loc>
-    
-    <lastmod>2021-04-15T10:14:59.584Z</lastmod>
     
   </url>
   
