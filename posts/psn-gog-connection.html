@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1">
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+  <meta name="description" content="Playstation connection timed out问题解决，领取PC版巫师3"/>
+
+
+
+
+
+
+
+
+  <link rel="alternate" href="/paranoiddemon.github.io/atom.xml" title="LANDFILL">
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/paranoiddemon.github.io/favicon.ico?v=1.1" />
+
+
+
+<link rel="canonical" href="http://landfill.cc/posts/psn-gog-connection.html"/>
+
+
+<meta name="description" content="Playstation connection timed out问题解决，领取PC版巫师3">
+<meta property="og:type" content="article">
+<meta property="og:title" content="GOG连接PSN超时解决方法">
+<meta property="og:url" content="http://landfill.cc/posts/psn-gog-connection">
+<meta property="og:site_name" content="LANDFILL">
+<meta property="og:description" content="Playstation connection timed out问题解决，领取PC版巫师3">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-06-17T09:24:46.000Z">
+<meta property="article:modified_time" content="2020-06-30T01:08:53.585Z">
+<meta property="article:author" content="Demon">
+<meta property="article:tag" content="当代生活">
+<meta property="article:tag" content="消费主义">
+<meta property="article:tag" content="工业社会">
+<meta property="article:tag" content="语言">
+<meta property="article:tag" content="政治">
+<meta property="article:tag" content="哲学">
+<meta property="article:tag" content="科技">
+<meta property="article:tag" content="Java">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="stylesheet" type="text/css" href="/paranoiddemon.github.io/css/style.css?v=1.1" />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+
+
+  <link rel="stylesheet" type="text/css" href="/paranoiddemon.github.io/lib/fancybox/jquery.fancybox.css" />
+
+
+
+
+<script type="text/javascript">
+  var themeConfig = {
+    fancybox: {
+      enable: true
+    },
+  };
+</script>
+
+
+
+
+  <script id="baidu_analytics">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?87e8c69825473c3f40a93644c2765447";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172058533-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-172058533-1');
+</script>
+
+
+    <title> GOG连接PSN超时解决方法 - LANDFILL </title>
+  <meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/paranoiddemon.github.io/atom.xml" title="LANDFILL" type="application/atom+xml">
+</head>
+
+  <body>
+    <div id="page">
+      <header id="masthead"><div class="site-header-inner">
+    <h1 class="site-title">
+        <a href="/paranoiddemon.github.io/." class="logo">LANDFILL</a>
+    </h1>
+
+    <nav id="nav-top">
+        
+            <ul id="menu-top" class="nav-top-items">
+                
+                    <li class="menu-item">
+                        <a href="/paranoiddemon.github.io/archives">
+                            
+                            
+                                Archives
+                            
+                        </a>
+                    </li>
+                
+                    <li class="menu-item">
+                        <a href="/paranoiddemon.github.io/about">
+                            
+                            
+                                About
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        
+  </nav>
+</div>
+
+      </header>
+      <div id="content">
+        
+    <div id="primary">
+        
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
+          GOG连接PSN超时解决方法
+        
+      </h1>
+
+      <time class="post-time">
+          Jun 17 2020
+      </time>
+    </header>
+
+
+
+    
+            <div class="post-content">
+            <p><strong>关闭两步验证，获取 “sso cookie”</strong></p>
+<p>turn off 2-step verification first<br>log in to PSN (store.playstation.com) through your browser<br>after the login open this link: <a href="https://ca.account.sony.com/api/v1/ssocookie" target="_blank" rel="noopener">https://ca.account.sony.com/api/v1/ssocookie</a><br>Copy content of “npsso”</p>
+<p><strong>修改代码，本地验证</strong><br>open windows explorer and enter the following into the address bar at the top and press enter</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">%LocalAppData%\GOG.com\Galaxy\plugins\installed\</span><br></pre></td></tr></table></figure>
+<p>open the psn_{random number} folder and edit the plugin.py file with your favourite text editor<br>go to line 64 and change it from:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">stored_npsso = stored_credentials.get(<span class="string">"npsso"</span>) <span class="keyword">if</span> stored_credentials <span class="keyword">else</span> <span class="literal">None</span></span><br></pre></td></tr></table></figure>
+<p>to:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">stored_npsso = <span class="string">"Copied value of npsso"</span></span><br></pre></td></tr></table></figure>
+<p>(“copied value of npsso” should be a 64 character long text consisting of numbers, lower case letters and upper case letters)   (the quotation marks “ “ are important!)<br>In addition to totally REPLACING the line 64, delete lines 65 and 66<br>the line 64 has to start after 8 blank SPACES (do not use tabs)</p>
+<p><strong>重启gog再连接</strong><br>restart GOG Galaxy<br>try connecting with PSN again </p>
+
+            </div>
+          
+
+    
+      <footer class="post-footer">
+		
+
+        
+        
+  <nav class="post-nav">
+    
+      <a class="prev" href="/paranoiddemon.github.io/posts/hexo-blog-sync">
+        <i class="iconfont icon-left"></i>
+        <span class="prev-text nav-default">更换电脑Hexo博客迁移</span>
+        <span class="prev-text nav-mobile">Prev</span>
+      </a>
+    
+    
+      <a class="next" href="/paranoiddemon.github.io/posts/thoughtsof202006">
+        <span class="next-text nav-default">语言碎片 2020/06</span>
+        <span class="prev-text nav-mobile">Next</span>
+        <i class="iconfont icon-right"></i>
+      </a>
+    
+  </nav>
+
+        
+  <div class="comments" id="comments">
+    
+    <div style="text-align:center;">
+        <button class="btn" id="load-disqus" onclick="disqus.load();">加载 Disqus 评论</button>
+    </div>
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="//disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+      </footer>
+    
+  </article>
+
+    </div>
+
+      </div>
+
+      <footer id="colophon"><span class="copyright-year">
+    
+        &copy;
+    
+        2020 -
+    
+    2021
+    <span class="footer-author">Demon.</span>
+    <span class="power-by">
+        Powered by <a class="hexo-link" href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> and <a class="theme-link" href="https://github.com/frostfan/hexo-theme-polarbear" target="_blank" rel="noopener">Polar Bear</a>
+    </span>
+</span>
+
+      </footer>
+
+      <div class="back-to-top" id="back-to-top">
+        <i class="iconfont icon-up"></i>
+      </div>
+    </div>
+    
+
+<script type="text/javascript">
+  var disqus_shortname = 'landfill';
+  var disqus_identifier = 'posts/psn-gog-connection.html';
+
+  var disqus_title = "GOG连接PSN超时解决方法";
+
+
+  var disqus = {
+    load : function disqus(){
+        if(typeof DISQUS !== 'object') {
+          (function () {
+          var s = document.createElement('script'); s.async = true;
+          s.type = 'text/javascript';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+          }());
+          $('#load-disqus').remove(); ///加载后移除按钮
+        }
+    }
+  }
+
+  
+    var disqus_config = function () {
+        this.page.url = disqus_url;
+        this.page.identifier = disqus_identifier;
+        this.page.title = disqus_title;
+    };
+  
+
+</script>
+
+
+    
+  
+
+
+
+
+
+  
+    <script type="text/javascript" src="/paranoiddemon.github.io/lib/jquery/jquery-3.1.1.min.js"></script>
+  
+
+  
+    <script type="text/javascript" src="/paranoiddemon.github.io/lib/fancybox/jquery.fancybox.pack.js"></script>
+  
+
+    <script type="text/javascript" src="/paranoiddemon.github.io/js/src/theme.js?v=1.1"></script>
+<script type="text/javascript" src="/paranoiddemon.github.io/js/src/bootstrap.js?v=1.1"></script>
+
+  </body>
+</html>
