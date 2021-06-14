@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1">
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+  <meta name="description" content="Build site with MkDocs and deploy on github pages."/>
+
+
+
+
+  <meta name="keywords" content="blog,MkDocs," />
+
+
+
+
+
+  <link rel="alternate" href="/paranoiddemon.github.io/atom.xml" title="LANDFILL">
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/paranoiddemon.github.io/favicon.ico?v=1.1" />
+
+
+
+<link rel="canonical" href="http://landfill.cc/posts/mkdocs.html"/>
+
+
+<meta name="description" content="Build site with MkDocs and deploy on github pages.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Build site with MkDocs">
+<meta property="og:url" content="http://landfill.cc/posts/mkdocs">
+<meta property="og:site_name" content="LANDFILL">
+<meta property="og:description" content="Build site with MkDocs and deploy on github pages.">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/paranoiddemon/picbed/imgs/image-20210614210231958.png">
+<meta property="article:published_time" content="2021-06-13T16:22:46.000Z">
+<meta property="article:modified_time" content="2021-06-14T13:38:47.747Z">
+<meta property="article:author" content="Demon">
+<meta property="article:tag" content="blog">
+<meta property="article:tag" content="MkDocs">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/paranoiddemon/picbed/imgs/image-20210614210231958.png">
+
+
+<link rel="stylesheet" type="text/css" href="/paranoiddemon.github.io/css/style.css?v=1.1" />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+
+
+  <link rel="stylesheet" type="text/css" href="/paranoiddemon.github.io/lib/fancybox/jquery.fancybox.css" />
+
+
+
+
+<script type="text/javascript">
+  var themeConfig = {
+    fancybox: {
+      enable: true
+    },
+  };
+</script>
+
+
+
+
+  <script id="baidu_analytics">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?87e8c69825473c3f40a93644c2765447";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172058533-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-172058533-1');
+</script>
+
+
+    <title> Build site with MkDocs - LANDFILL </title>
+  <meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/paranoiddemon.github.io/atom.xml" title="LANDFILL" type="application/atom+xml">
+</head>
+
+  <body>
+    <div id="page">
+      <header id="masthead"><div class="site-header-inner">
+    <h1 class="site-title">
+        <a href="/paranoiddemon.github.io/." class="logo">LANDFILL</a>
+    </h1>
+
+    <nav id="nav-top">
+        
+            <ul id="menu-top" class="nav-top-items">
+                
+                    <li class="menu-item">
+                        <a href="/paranoiddemon.github.io/archives">
+                            
+                            
+                                Archives
+                            
+                        </a>
+                    </li>
+                
+                    <li class="menu-item">
+                        <a href="/paranoiddemon.github.io/about">
+                            
+                            
+                                About
+                            
+                        </a>
+                    </li>
+                
+               <!-- 自己添加标签 -->
+                <li class="menu-item">
+                <a href="/wiki">Wiki</a>
+                </li>
+            </ul>
+        
+  </nav>
+</div>
+
+      </header>
+      <div id="content">
+        
+    <div id="primary">
+        
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
+          Build site with MkDocs
+        
+      </h1>
+
+      <time class="post-time">
+          Jun 14 2021
+      </time>
+    </header>
+
+
+
+    
+            <div class="post-content">
+            <h2 id="What-is-MkDocs"><a href="#What-is-MkDocs" class="headerlink" title="What is MkDocs?"></a>What is MkDocs?</h2><p>Accroding to the description from the offical site of MkDocs: </p>
+<blockquote>
+<p>MkDocs is a <strong>fast</strong>, <strong>simple</strong> and <strong>downright gorgeous</strong> static site generator that’s geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file. Start by reading the <a href="https://www.mkdocs.org/getting-started/" target="_blank" rel="noopener">introductory tutorial</a>, then check the <a href="https://www.mkdocs.org/user-guide/" target="_blank" rel="noopener">User Guide</a> for more information.</p>
+</blockquote>
+<p>With MkDocs, you can generate a static site in a minute and deploy it on your server or github pages.</p>
+<h2 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h2><p>First, make sure that Python was installed on you PC and install MkDocs with follow command.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install mkdocs</span><br></pre></td></tr></table></figure>
+
+<p>Create a new project</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdocs new my-project</span><br><span class="line">cd my-project</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cdn.jsdelivr.net/gh/paranoiddemon/picbed/imgs/image-20210614210231958.png" alt="image-20210614210231958"></p>
+<p><code>mkdocs.yml</code> is the confifuration file. The <code>docs</code> folder contains your markdown source files.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdocs serve</span><br></pre></td></tr></table></figure>
+
+<p>You can preview the site at <code>http://127.0.0.1:8000/</code> in your browser.</p>
+<h2 id="Deploying"><a href="#Deploying" class="headerlink" title="Deploying"></a>Deploying</h2><p>Create a Github repository and clone to your local directory and add <code>site/</code> to <code>.gitignore</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">mkdir docs</span><br><span class="line">cd docs</span><br><span class="line">mkdocs new .</span><br><span class="line">mkdocs build</span><br><span class="line">mkdocs serve</span><br></pre></td></tr></table></figure>
+
+<p>Write you docs in the folder <code>docs</code>. Then run the command:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdocs gh-deploy --clean</span><br></pre></td></tr></table></figure>
+
+<p>It will create a gh-pages branch in your respository and deploy the static site on your github page.</p>
+<p>You can access you site at <code>https://{username}.github.io/{projectname}</code>.</p>
+<h2 id="Use-MkDocs-Material-Theme"><a href="#Use-MkDocs-Material-Theme" class="headerlink" title="Use MkDocs-Material Theme"></a>Use MkDocs-Material Theme</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Install gtk3-runtime-3.xxx-ts-win64.exe at https:&#x2F;&#x2F;github.com&#x2F;tschoonj&#x2F;GTK-for-Windows-Runtime-Environment-Installer&#x2F;releases</span><br><span class="line"></span><br><span class="line">pip install --upgrade setuptools</span><br><span class="line">pip install mkdocs-material</span><br></pre></td></tr></table></figure>
+
+<p>Configure the sites in <code>mkdocs.yml</code> refer to the <a href="https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/" target="_blank" rel="noopener">official documents</a>.</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">site_name:</span> <span class="string">Wiki</span> <span class="string">of</span> <span class="string">CS</span></span><br><span class="line"><span class="attr">site_url:</span> <span class="string">https://landfill.cc/wiki/</span></span><br><span class="line"><span class="comment">#site_description: cs WIKI</span></span><br><span class="line"><span class="comment">#copyright: Copyright © 2020 [Landfill](https://www.landfill.cc/)</span></span><br><span class="line"><span class="attr">nav:</span> </span><br><span class="line"><span class="bullet">-</span> <span class="attr">Home:</span> <span class="string">index.md</span></span><br><span class="line"><span class="comment">#  - DEV: dev.md </span></span><br><span class="line"><span class="bullet">-</span> <span class="attr">Documents:</span> </span><br><span class="line">  <span class="bullet">-</span> <span class="attr">Usage :</span> <span class="string">test/usage.md</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">Tutorial:</span> <span class="string">test/tutorial.md</span></span><br><span class="line"><span class="bullet">-</span> <span class="attr">Data Structure:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">AVL Tree:</span> <span class="string">DataStructure/about.md</span></span><br><span class="line"><span class="bullet">-</span> <span class="attr">OS:</span> </span><br><span class="line">  <span class="bullet">-</span> <span class="attr">OS NOTES:</span> <span class="string">OS/os.md</span></span><br><span class="line"><span class="bullet">-</span> <span class="attr">test:</span> <span class="string">test.md</span></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line"><span class="comment">#主题</span></span><br><span class="line"><span class="attr">theme:</span></span><br><span class="line">  <span class="attr">name:</span> <span class="string">material</span></span><br><span class="line">  <span class="comment">#custom_dir: material</span></span><br><span class="line">  <span class="attr">language:</span> <span class="string">'zh'</span>  <span class="comment"># 配置语言</span></span><br><span class="line">  <span class="attr">palette:</span>  <span class="comment"># 颜色</span></span><br><span class="line">    <span class="comment"># - scheme: default</span></span><br><span class="line">    <span class="attr">primary:</span> <span class="string">indigo</span></span><br><span class="line">    <span class="attr">accent:</span> <span class="string">indigo</span></span><br><span class="line">    <span class="comment">#   toggle:</span></span><br><span class="line">    <span class="comment">#     icon: material/toggle-switch-off-outline</span></span><br><span class="line">    <span class="comment">#     name: Switch to dark mode</span></span><br><span class="line">    <span class="comment"># - scheme: slate</span></span><br><span class="line">    <span class="comment">#   primary: indigo</span></span><br><span class="line">    <span class="comment">#   accent: indigo</span></span><br><span class="line">    <span class="comment">#   toggle:</span></span><br><span class="line">    <span class="comment">#     icon: material/toggle-switch</span></span><br><span class="line">    <span class="comment">#     name: Switch to light mode</span></span><br><span class="line">  <span class="attr">features:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">navigation.tabs</span> <span class="comment"># horizon tabs </span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">navigation.tracking</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">navigation.expand</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">navigation.top</span></span><br><span class="line">  <span class="comment">#custom_dir: 'docs/resources/'</span></span><br><span class="line">  <span class="attr">font:</span></span><br><span class="line">    <span class="attr">text:</span> <span class="string">Roboto</span></span><br><span class="line">    <span class="attr">code:</span> <span class="string">Roboto</span> <span class="string">Mono</span></span><br><span class="line"></span><br><span class="line"><span class="attr">markdown_extensions:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">admonition</span>  <span class="comment"># 提示块</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">footnotes</span>  <span class="comment"># 脚注</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">meta</span>  <span class="comment"># 定义元数据，通过文章上下文控制，如disqus</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">pymdownx.caret</span>  <span class="comment"># 下划线上标</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">pymdownx.tilde</span>  <span class="comment"># 删除线下标</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">pymdownx.critic</span>  <span class="comment"># 增加删除修改高亮注释，可修饰行内或段落</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">pymdownx.details</span>  <span class="comment"># 提示块可折叠</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">pymdownx.inlinehilite</span>  <span class="comment"># 行内代码高亮</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">pymdownx.mark</span>  <span class="comment"># 文本高亮</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">pymdownx.smartsymbols</span>  <span class="comment"># 符号转换</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">pymdownx.superfences</span>  <span class="comment"># 代码嵌套在列表里</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">codehilite:</span>    <span class="comment"># 代码高亮，显示行号</span></span><br><span class="line">      <span class="attr">guess_lang:</span> <span class="literal">false</span></span><br><span class="line">      <span class="attr">linenums:</span> <span class="literal">true</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">toc:</span>  <span class="comment"># 锚点</span></span><br><span class="line">      <span class="attr">permalink:</span> <span class="literal">true</span></span><br><span class="line"><span class="comment">#  - pymdownx.arithmatex  # 数学公式</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">pymdownx.betterem:</span>  <span class="comment"># 对加粗和斜体更好的检测</span></span><br><span class="line">      <span class="attr">smart_enable:</span> <span class="string">all</span></span><br><span class="line"><span class="comment">#  - pymdownx.emoji:  # 表情</span></span><br><span class="line"><span class="comment">#      emoji_generator: !!python/name:pymdownx.emoji.to_svg</span></span><br><span class="line"><span class="comment">#  - pymdownx.magiclink  # 自动识别超链接</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">pymdownx.tasklist:</span>  <span class="comment"># 复选框checklist</span></span><br><span class="line">      <span class="attr">custom_checkbox:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="attr">extra:</span></span><br><span class="line">  <span class="attr">search:</span></span><br><span class="line">    <span class="attr">language:</span> <span class="string">'jp'</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#扩展样式</span></span><br><span class="line"><span class="comment"># extra_css:</span></span><br><span class="line"><span class="comment">#   - resources/css/extra.css</span></span><br></pre></td></tr></table></figure>
+
+
+            </div>
+          
+
+    
+      <footer class="post-footer">
+		
+		<div class="post-tags">
+		  
+			<a href="/paranoiddemon.github.io/tags/blog/">blog</a>
+		  
+			<a href="/paranoiddemon.github.io/tags/MkDocs/">MkDocs</a>
+		  
+		</div>
+		
+
+        
+        
+  <nav class="post-nav">
+    
+    
+      <a class="next" href="/paranoiddemon.github.io/posts/randomness">
+        <span class="next-text nav-default">两种选择</span>
+        <span class="prev-text nav-mobile">Next</span>
+        <i class="iconfont icon-right"></i>
+      </a>
+    
+  </nav>
+
+        
+  <div class="comments" id="comments">
+    
+    <div style="text-align:center;">
+        <button class="btn" id="load-disqus" onclick="disqus.load();">加载 Disqus 评论</button>
+    </div>
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="//disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+      </footer>
+    
+  </article>
+
+    </div>
+
+      </div>
+
+      <footer id="colophon"><span class="copyright-year">
+    
+        &copy;
+    
+        2020 -
+    
+    2021
+    <span class="footer-author">Demon.</span>
+    <span class="power-by">
+        Powered by <a class="hexo-link" href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> and <a class="theme-link" href="https://github.com/frostfan/hexo-theme-polarbear" target="_blank" rel="noopener">Polar Bear</a>
+    </span>
+</span>
+
+      </footer>
+
+      <div class="back-to-top" id="back-to-top">
+        <i class="iconfont icon-up"></i>
+      </div>
+    </div>
+    
+
+<script type="text/javascript">
+  var disqus_shortname = 'landfill';
+  var disqus_identifier = 'posts/mkdocs.html';
+
+  var disqus_title = "Build site with MkDocs";
+
+
+  var disqus = {
+    load : function disqus(){
+        if(typeof DISQUS !== 'object') {
+          (function () {
+          var s = document.createElement('script'); s.async = true;
+          s.type = 'text/javascript';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+          }());
+          $('#load-disqus').remove(); ///加载后移除按钮
+        }
+    }
+  }
+
+  
+    var disqus_config = function () {
+        this.page.url = disqus_url;
+        this.page.identifier = disqus_identifier;
+        this.page.title = disqus_title;
+    };
+  
+
+</script>
+
+
+    
+  
+
+
+
+
+
+  
+    <script type="text/javascript" src="/paranoiddemon.github.io/lib/jquery/jquery-3.1.1.min.js"></script>
+  
+
+  
+    <script type="text/javascript" src="/paranoiddemon.github.io/lib/fancybox/jquery.fancybox.pack.js"></script>
+  
+
+    <script type="text/javascript" src="/paranoiddemon.github.io/js/src/theme.js?v=1.1"></script>
+<script type="text/javascript" src="/paranoiddemon.github.io/js/src/bootstrap.js?v=1.1"></script>
+
+  </body>
+</html>
