@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://landfill.cc/posts/political-philosophy</loc>
+    
+    <lastmod>2021-06-14T13:41:44.705Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://landfill.cc/posts/hk-election</loc>
+    
+    <lastmod>2021-06-14T13:41:29.558Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://landfill.cc/posts/mkdocs</loc>
     
     <lastmod>2021-06-14T13:38:47.747Z</lastmod>
@@ -19,20 +33,6 @@
     <loc>http://landfill.cc/</loc>
     
     <lastmod>2021-05-16T15:17:03.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://landfill.cc/posts/political-philosophy</loc>
-    
-    <lastmod>2021-04-23T13:01:51.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://landfill.cc/posts/hk-election</loc>
-    
-    <lastmod>2021-04-23T13:00:28.000Z</lastmod>
     
   </url>
   
