@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://landfill.cc/posts/mkdocs</loc>
+    
+    <lastmod>2021-06-19T07:44:21.400Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://landfill.cc/posts/political-philosophy</loc>
     
     <lastmod>2021-06-14T13:41:44.705Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://landfill.cc/posts/hk-election</loc>
     
     <lastmod>2021-06-14T13:41:29.558Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://landfill.cc/posts/mkdocs</loc>
-    
-    <lastmod>2021-06-14T13:38:47.747Z</lastmod>
     
   </url>
   
